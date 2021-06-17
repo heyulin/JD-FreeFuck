@@ -1060,7 +1060,7 @@ function ProjectDeployment() {
     rm -rf /opt/jd
   fi
   ## 下载源码并解压至目录
-  wget -P /opt https://gitee.com/SuperManito/JD-FreeFuck/attach_files/610490/download/jd.tar.gz
+  wget -P /opt https://github.com/heyulin/JD-FreeFuck/blob/main/jd.tar.gz
   mkdir -p $BASE
   tar -zxvf /opt/jd.tar.gz -C $BASE
   rm -rf /opt/jd.tar.gz
